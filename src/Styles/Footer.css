@@ -1,0 +1,95 @@
+.footer {
+  background-color: #2f6b3f;
+  color: white;
+  padding: 40px 60px;
+}
+
+/* Top section */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-col h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-col p {
+  margin: 6px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Bottom section */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.footer-left img {
+  width: 120px;
+}
+
+/* Center */
+.footer-center {
+  text-align: center;
+}
+
+/* 🔥 Social icons */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.socials svg {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.socials svg:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+/* Right */
+.footer-right span {
+  margin: 0 8px;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+.socials svg {
+  background: rgba(255,255,255,0.2);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.footer {
+  background-color: #2f6b3f;
+  color: white;
+  padding: 40px;
+}

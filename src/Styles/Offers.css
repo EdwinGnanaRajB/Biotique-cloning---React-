@@ -1,0 +1,81 @@
+.offers-page {
+  padding: 40px;
+}
+
+/* 🔥 Banner */
+.offer-banner {
+  display: flex;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+}
+
+/* Left */
+.offer-left {
+  flex: 1;
+  padding: 40px;
+}
+
+.offer-left h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.offer-left p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.offer-left button {
+  background: #2f6f44;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Right */
+.offer-right {
+  flex: 2;
+}
+
+.offer-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 🔥 Bottom Info */
+.offer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.info-box span {
+  font-size: 30px;
+}
+
+.info-box h4 {
+  margin: 0;
+}
+
+.info-box p {
+  margin: 0;
+  color: gray;
+}
+
+/* Divider */
+.divider {
+  width: 1px;
+  height: 40px;
+  background: #ccc;
+}

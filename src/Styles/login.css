@@ -1,0 +1,105 @@
+/* Full screen background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Background image */
+  background: url("../assets/Logo.png") no-repeat center center/cover;
+  position: relative;
+}
+
+/* Dark overlay + blur */
+.login-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(9, 9, 9, 0.4);
+  backdrop-filter: blur(8px);
+  z-index: 0;
+}
+
+/* Glass card */
+.login-card {
+  position: relative;
+  z-index: 1;
+
+  width: 350px;
+  padding: 40px 30px;
+
+  border-radius: 16px;
+
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+  text-align: center;
+  color:#2f6b3f;
+}
+
+/* Title */
+.login-card h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+
+  border-radius: 8px;
+  border: none;
+
+  background: rgba(255, 255, 255, 0.2);
+  color: #100e0e;
+
+  outline: none;
+  font-size: 14px;
+}
+
+/* Placeholder color */
+.login-card input::placeholder {
+  color: #0c0b0b;
+}
+
+/* Input focus */
+.login-card input:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Button */
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+
+  background: #2f6b3f;
+  color: #fff;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover */
+.login-card button:hover {
+  background: #245332;
+}
+
+/* Small text */
+.login-card p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ddd;
+}

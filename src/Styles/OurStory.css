@@ -1,0 +1,31 @@
+.about-container {
+  padding: 40px;
+}
+
+/* Title */
+.about-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.about-subtitle {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+/* Content 2 column */
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Image */
+.about-image img {
+  width: 100%;
+  border-radius: 8px;
+}
