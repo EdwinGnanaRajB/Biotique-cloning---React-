@@ -7,15 +7,17 @@ function Header() {
 
   return (
     <>
-      {/* Top bar */}
-      <div className="top-bar"></div>
+      {/* Top Bar */}
+      <div className="top-bar">
+        Free Shipping on Orders Above ₹499
+      </div>
 
-      {/* Main header */}
+      {/* Main Header */}
       <div className="main-header">
         <img src={logo} alt="Logo" className="logo" />
 
         <div className="search-box">
-          <input placeholder="Search For All Products" />
+          <input placeholder="Search for all products" />
           <button className="search-btn">Search</button>
         </div>
 
@@ -27,7 +29,7 @@ function Header() {
         </button>
       </div>
 
-      {/* Bottom navigation */}
+      {/* Bottom Navigation */}
       <div className="bottom-bar">
         <NavLink to="/collections">COLLECTIONS</NavLink>
         <NavLink to="/skin">SKIN</NavLink>
