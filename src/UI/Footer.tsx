@@ -13,7 +13,7 @@ function Footer() {
           <h4>Customer Support</h4>
           <p>Contact Us</p>
           <p>FAQ</p>
-          <p>Track Order</p>
+          <p>Track Orders</p>
           <p>Return & Exchange</p>
           <p>Shipping Locations</p>
           <p>Return Request</p>
